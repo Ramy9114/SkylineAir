@@ -12,7 +12,6 @@
 		25A139F42F6B65EB0011E617 /* CheckInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A139F22F6B65EB0011E617 /* CheckInView.swift */; };
 		25A139FB2F6B67DF0011E617 /* TicketsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A139FA2F6B67DF0011E617 /* TicketsView.swift */; };
 		25A758762F6D8CD000518B60 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 25A758752F6D8CD000518B60 /* Alamofire */; };
-		25A758782F6D8CD000518B60 /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 25A758772F6D8CD000518B60 /* AlamofireDynamic */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,7 +35,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25A758782F6D8CD000518B60 /* AlamofireDynamic in Frameworks */,
 				25A758762F6D8CD000518B60 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -125,7 +123,6 @@
 			name = testProject;
 			packageProductDependencies = (
 				25A758752F6D8CD000518B60 /* Alamofire */,
-				25A758772F6D8CD000518B60 /* AlamofireDynamic */,
 			);
 			productName = testProject;
 			productReference = 25B552202F68A3620010C8F4 /* testProject.app */;
@@ -413,11 +410,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 25A758742F6D8CD000518B60 /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
-		};
-		25A758772F6D8CD000518B60 /* AlamofireDynamic */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 25A758742F6D8CD000518B60 /* XCRemoteSwiftPackageReference "Alamofire" */;
-			productName = AlamofireDynamic;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
