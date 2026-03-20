@@ -19,7 +19,7 @@
 		25A139F12F6B65EB0011E617 /* AppCoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinatorView.swift; sourceTree = "<group>"; };
 		25A139F22F6B65EB0011E617 /* CheckInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInView.swift; sourceTree = "<group>"; };
 		25A139FA2F6B67DF0011E617 /* TicketsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsView.swift; sourceTree = "<group>"; };
-		25B552202F68A3620010C8F4 /* testProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25B552202F68A3620010C8F4 /* SkylineAir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkylineAir.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -97,7 +97,7 @@
 		25B552212F68A3620010C8F4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				25B552202F68A3620010C8F4 /* testProject.app */,
+				25B552202F68A3620010C8F4 /* SkylineAir.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,9 +105,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		25B5521F2F68A3620010C8F4 /* testProject */ = {
+		25B5521F2F68A3620010C8F4 /* SkylineAir */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 25B5522B2F68A3620010C8F4 /* Build configuration list for PBXNativeTarget "testProject" */;
+			buildConfigurationList = 25B5522B2F68A3620010C8F4 /* Build configuration list for PBXNativeTarget "SkylineAir" */;
 			buildPhases = (
 				25B5521C2F68A3620010C8F4 /* Sources */,
 				25B5521D2F68A3620010C8F4 /* Frameworks */,
@@ -120,12 +120,12 @@
 			fileSystemSynchronizedGroups = (
 				25B552222F68A3620010C8F4 /* testProject */,
 			);
-			name = testProject;
+			name = SkylineAir;
 			packageProductDependencies = (
 				25A758752F6D8CD000518B60 /* Alamofire */,
 			);
 			productName = testProject;
-			productReference = 25B552202F68A3620010C8F4 /* testProject.app */;
+			productReference = 25B552202F68A3620010C8F4 /* SkylineAir.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -143,7 +143,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 25B5521B2F68A3620010C8F4 /* Build configuration list for PBXProject "testProject" */;
+			buildConfigurationList = 25B5521B2F68A3620010C8F4 /* Build configuration list for PBXProject "SkylineAir" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -160,7 +160,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				25B5521F2F68A3620010C8F4 /* testProject */,
+				25B5521F2F68A3620010C8F4 /* SkylineAir */,
 			);
 		};
 /* End PBXProject section */
@@ -318,11 +318,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SkylineAir;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -349,11 +351,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SkylineAir;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -374,7 +378,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		25B5521B2F68A3620010C8F4 /* Build configuration list for PBXProject "testProject" */ = {
+		25B5521B2F68A3620010C8F4 /* Build configuration list for PBXProject "SkylineAir" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				25B552292F68A3620010C8F4 /* Debug */,
@@ -383,7 +387,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		25B5522B2F68A3620010C8F4 /* Build configuration list for PBXNativeTarget "testProject" */ = {
+		25B5522B2F68A3620010C8F4 /* Build configuration list for PBXNativeTarget "SkylineAir" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				25B5522C2F68A3620010C8F4 /* Debug */,
