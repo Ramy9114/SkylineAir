@@ -1,0 +1,27 @@
+{
+  "name": "Branch Naming Convention",
+  "target": "branch",
+  "enforcement": "active",
+  "conditions": {
+    "ref_name": {
+      "include": [
+        "~ALL"
+      ],
+      "exclude": [
+        "refs/heads/main",
+        "refs/heads/develop"
+      ]
+    }
+  },
+  "rules": [
+    {
+      "type": "branch_name_pattern",
+      "parameters": {
+        "name": "Invalid branch name. Please follow the naming convention: skyline-XXXX where XXXX is the ticket number. Examples: skyline-1234, skyline-5678-add-login-screen, skyline-9012-fix-crash. Format: skyline-<ticket_number>[-optional-description]",
+        "negate": false,
+        "operator": "regex",
+        "pattern": "^skyline-[0-9]+"
+      }
+    }
+  ]
+}
